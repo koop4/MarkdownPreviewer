@@ -1,7 +1,7 @@
 {
   "name": "markdownpreviewer",
   "version": "1.0.0",
-  "description": "",
+  "description": "allow to preview markdown",
   "main": "index.js",
   "scripts": {
     "start": "webpack --mode development",
@@ -26,5 +26,9 @@
   "devDependencies": {
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   }
 }
