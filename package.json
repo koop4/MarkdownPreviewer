@@ -1,0 +1,30 @@
+{
+  "name": "markdownpreviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koop4/MarkdownPreviewer.git"
+  },
+  "keywords": [
+    "npm",
+    "webpack",
+    "react"
+  ],
+  "author": "koop4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koop4/MarkdownPreviewer/issues"
+  },
+  "homepage": "https://github.com/koop4/MarkdownPreviewer#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
